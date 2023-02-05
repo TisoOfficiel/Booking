@@ -7,8 +7,7 @@ import 'react-date-range/dist/styles.css';
 import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 
-export const Header = ({type}) => {
-
+const Header = ({type}) => {
   const [openDate, setOpenDate] = useState(false)
   const [date, setDate] = useState([
     {
@@ -125,3 +124,5 @@ export const Header = ({type}) => {
     </div>
   )
 }
+
+export default Header
