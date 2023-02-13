@@ -4,7 +4,7 @@ import {
 import './App.css';
 
 import List from './pages/list/List';
-import { Hotel } from './pages/hotel/Hotel';
+import Hotel from './pages/hotel/Hotel';
 import Home from "./pages/home/Home";
 
 function App() {
